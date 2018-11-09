@@ -12,5 +12,5 @@ gems:
 markdown: kramdown
 
 collections:
-  narvcorp:
+  corp:
     output: true
