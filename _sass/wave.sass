@@ -1,0 +1,24 @@
+/*<div class='wave -one'></div><div class='wave -two'></div><div class='wave -three'></div>*/
+.wave
+  opacity: .2
+  position: absolute
+  background: #0af
+  width: 100px
+  height: 100px
+  margin: auto 0
+  transform-origin: 50% 48%
+  border-radius: 43%
+  animation: drift 3000ms infinite linear
+  &.-three
+    animation: drift 5000ms infinite linear
+  &.-two
+    animation: drift 7000ms infinite linear
+    opacity: .1
+    background: yellow
+
+@keyframes drift
+  from
+    transform: rotate(0deg)
+
+  from
+    transform: rotate(360deg)

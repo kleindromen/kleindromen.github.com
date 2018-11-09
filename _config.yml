@@ -1,0 +1,16 @@
+# Setup
+name:         The Ghost Ship
+tagline:      A responsive theme for your project on GitHub Pages
+#baseurl:      "/project/kleindromen.github.com/_site"
+baseurl:      "https://kleindromen.github.io"
+locale:       "en"
+
+# Gems
+gems:
+  - jekyll-paginate
+
+markdown: kramdown
+
+collections:
+  narvcorp:
+    output: true

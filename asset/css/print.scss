@@ -1,0 +1,420 @@
+---
+---
+@import 'colors';
+@import 'fonts';
+
+$url_0: url(../fonts/KoPub.ttf);
+
+@font-face {
+	font-family: $font_0;
+	font-style: normal;
+	font-weight: normal;
+	src: $url_0 format('truetype');
+}
+//@extend-elements
+//original selectors
+//html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+%extend_1 {
+	padding: 0;
+	margin: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+	border: 0;
+}
+
+//original selectors
+//code, pre
+%extend_2 {
+	margin-bottom: 30px;
+	font-family: $font_4, $font_5, $font_6, $font_7;
+	font-size: 12px;
+	color: $color_log_cabin_approx;
+}
+
+
+html {
+	@extend %extend_1;
+}
+body {
+	@extend %extend_1;
+	line-height: 1;
+	font-family: $font_0, $font_1, $font_2, $font_3;
+	font-size: 13px;
+	line-height: 1.5;
+	color: $black;
+}
+div {
+	@extend %extend_1;
+}
+span {
+	@extend %extend_1;
+}
+applet {
+	@extend %extend_1;
+}
+object {
+	@extend %extend_1;
+}
+iframe {
+	@extend %extend_1;
+}
+h1 {
+	@extend %extend_1;
+	font-size: 2.8em;
+}
+h2 {
+	@extend %extend_1;
+	margin-bottom: 8px;
+	font-size: 22px;
+	font-weight: bold;
+	color: $color_mine_shaft_approx;
+}
+h3 {
+	@extend %extend_1;
+	margin-bottom: 8px;
+	font-size: 18px;
+	font-weight: bold;
+	color: $color_monza_approx;
+}
+h4 {
+	@extend %extend_1;
+	font-size: 16px;
+	font-weight: bold;
+	color: $color_mine_shaft_approx;
+}
+h5 {
+	@extend %extend_1;
+	font-size: 1em;
+	color: $color_mine_shaft_approx;
+}
+h6 {
+	@extend %extend_1;
+	font-size: .8em;
+	color: $color_mine_shaft_approx;
+}
+p {
+	@extend %extend_1;
+	margin-bottom: 20px;
+	font-weight: 300;
+	a {
+		font-weight: 400;
+	}
+}
+blockquote {
+	@extend %extend_1;
+	quotes: none;
+	padding: 0 0 0 30px;
+	margin-bottom: 20px;
+	font-size: 1.6em;
+	border-left: 10px solid $color_kimberly_approx;
+	&:before {
+		content: '';
+		content: none;
+	}
+	&:after {
+		content: '';
+		content: none;
+	}
+}
+pre {
+	@extend %extend_1;
+	@extend %extend_2;
+	padding: 20px;
+	overflow: auto;
+	border: solid 1px $color_alto_approx;
+	code {
+		padding: 0;
+	}
+}
+a {
+	@extend %extend_1;
+	font-weight: bold;
+	color: $color_monza_approx;
+	text-decoration: none;
+}
+abbr {
+	@extend %extend_1;
+}
+acronym {
+	@extend %extend_1;
+}
+address {
+	@extend %extend_1;
+}
+big {
+	@extend %extend_1;
+}
+cite {
+	@extend %extend_1;
+}
+code {
+	@extend %extend_1;
+	@extend %extend_2;
+	padding: 0 3px;
+}
+del {
+	@extend %extend_1;
+}
+dfn {
+	@extend %extend_1;
+}
+em {
+	@extend %extend_1;
+}
+img {
+	@extend %extend_1;
+}
+ins {
+	@extend %extend_1;
+}
+kbd {
+	@extend %extend_1;
+}
+q {
+	@extend %extend_1;
+	quotes: none;
+	&:before {
+		content: '';
+		content: none;
+	}
+	&:after {
+		content: '';
+		content: none;
+	}
+}
+s {
+	@extend %extend_1;
+}
+samp {
+	@extend %extend_1;
+}
+small {
+	@extend %extend_1;
+}
+strike {
+	@extend %extend_1;
+}
+strong {
+	@extend %extend_1;
+}
+sub {
+	@extend %extend_1;
+}
+sup {
+	@extend %extend_1;
+}
+tt {
+	@extend %extend_1;
+}
+var {
+	@extend %extend_1;
+}
+b {
+	@extend %extend_1;
+}
+u {
+	@extend %extend_1;
+}
+i {
+	@extend %extend_1;
+}
+center {
+	@extend %extend_1;
+}
+dl {
+	@extend %extend_1;
+	margin-bottom: 20px;
+	dd {
+		font-style: italic;
+		font-weight: 100;
+	}
+}
+dt {
+	@extend %extend_1;
+}
+dd {
+	@extend %extend_1;
+}
+ol {
+	@extend %extend_1;
+	list-style: none;
+	margin-bottom: 20px;
+	li {
+		padding-left: 3px;
+		list-style-position: inside;
+		list-style: decimal;
+	}
+}
+ul {
+	@extend %extend_1;
+	list-style: none;
+	margin-bottom: 20px;
+	li {
+		padding-left: 20px;
+		list-style-position: inside;
+		list-style: disc;
+	}
+}
+li {
+	@extend %extend_1;
+}
+fieldset {
+	@extend %extend_1;
+}
+form {
+	@extend %extend_1;
+	padding: 20px;
+	background: $concrete;
+}
+label {
+	@extend %extend_1;
+}
+legend {
+	@extend %extend_1;
+}
+table {
+	@extend %extend_1;
+	border-spacing: 0;
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid $color_cararra_approx;
+}
+caption {
+	@extend %extend_1;
+}
+tbody {
+	@extend %extend_1;
+}
+tfoot {
+	@extend %extend_1;
+}
+thead {
+	@extend %extend_1;
+}
+tr {
+	@extend %extend_1;
+}
+th {
+	@extend %extend_1;
+	font-weight: 500;
+}
+td {
+	@extend %extend_1;
+	font-weight: 300;
+}
+article {
+	@extend %extend_1;
+	display: block;
+}
+aside {
+	@extend %extend_1;
+	display: block;
+}
+canvas {
+	@extend %extend_1;
+}
+details {
+	@extend %extend_1;
+	display: block;
+}
+embed {
+	@extend %extend_1;
+}
+figure {
+	@extend %extend_1;
+	display: block;
+}
+figcaption {
+	@extend %extend_1;
+	display: block;
+}
+footer {
+	@extend %extend_1;
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-top: 40px;
+	font-size: 13px;
+	color: $color_silver_chalice_approx;
+	a {
+		color: $color_storm_dust_approx;
+	}
+}
+header {
+	@extend %extend_1;
+	display: block;
+	padding-top: 35px;
+	padding-bottom: 10px;
+	h1 {
+		font-size: 48px;
+		font-weight: bold;
+		line-height: 1.2;
+		color: $color_mine_shaft_approx;
+		letter-spacing: -1px;
+	}
+	h2 {
+		font-size: 24px;
+		font-weight: normal;
+		line-height: 1.3;
+		color: $color_silver_chalice_approx;
+		letter-spacing: -1px;
+	}
+}
+hgroup {
+	@extend %extend_1;
+	display: block;
+}
+menu {
+	@extend %extend_1;
+	display: block;
+}
+nav {
+	@extend %extend_1;
+	display: block;
+}
+output {
+	@extend %extend_1;
+}
+ruby {
+	@extend %extend_1;
+}
+section {
+	@extend %extend_1;
+	display: block;
+}
+summary {
+	@extend %extend_1;
+}
+time {
+	@extend %extend_1;
+}
+mark {
+	@extend %extend_1;
+}
+audio {
+	@extend %extend_1;
+}
+video {
+	@extend %extend_1;
+}
+#downloads {
+	display: none;
+}
+#main_content {
+	padding-top: 20px;
+}
+.clearfix {
+	display: inline-block;
+	display: block;
+	&:after {
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+		content: '.';
+	}
+}
+* html .clearfix {
+	height: 1%;
+}
