@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: content
 name:  "시스테마"
 achieves:
   - image: ♣

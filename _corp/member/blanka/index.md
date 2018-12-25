@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: content
 name:  "유레카 미리어드"
 achieves:
   - image: ♣

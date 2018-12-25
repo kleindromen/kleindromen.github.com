@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: content
 name:  "우르르 비터스윗"
 achieves:
   - image: ＃
@@ -69,8 +69,13 @@ achieves:
   > 나는 자비로우니 자살할 기회를 주지.
 
 
-## 4. 기타
--
+## 4. 로그
+
+{% for post in site.corp %}
+{% if post.url contains 'ururu' %}
+[{{post.name}}{{post.num}}]({{ site.baseurl }}{{ post.url }})
+{% endif %}
+{% endfor %}
 
 [^name]: 원래는 `우르르 쾅쾅` 이다. 번개 능력자 한번 짜볼까 하고 막 지었었다.
 [halfvillain]: ../../influence/halfvillain/index.html

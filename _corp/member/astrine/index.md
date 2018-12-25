@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: content
 name:  "아스트린"
 achieves:
   - image: ♣

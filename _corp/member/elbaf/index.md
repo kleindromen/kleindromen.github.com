@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: content
 name:  "엘바프 프리드리히"
 achieves:
   - image: ▣

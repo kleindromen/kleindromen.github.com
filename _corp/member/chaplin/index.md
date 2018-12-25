@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: content
 name:  "챠펠린"
 achieves:
   - image: ♣
@@ -17,7 +17,7 @@ achieves:
 국적 | 한국
 코드 | Tutor
 소속 | [프리랜서](../../influence/free)
-직업 | **선의** 
+직업 | **선의**
 재능 | ***비기너즈 럭***
 제한 |
 

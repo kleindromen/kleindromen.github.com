@@ -1,21 +1,11 @@
 ---
-layout: main-content
+layout: content
 name:  "마그나 그레이시아"
 achieves:
-  - image: ♣
-    color: blue
-    name: For all beginners
-    content: 모든 시작하는 이들을 위해.
-    detail: 행운을 빌어요.
-  - image: $
-    color: purple
-    name: 재벌
-    content:
-    detail:
 ---
 # 마그나 그레이시아
 ---
->  행운을 빌어요.
+>  하늘 아래 온전히 새로운 것은 없으니
 
 이름 | `마그나 그레이시아`[^name]
 목적 | 지식의 계승

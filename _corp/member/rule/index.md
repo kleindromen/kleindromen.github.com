@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: content
 name:  "룰"
 achieves:
   - image: A

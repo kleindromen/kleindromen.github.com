@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: content
 name:  "블라스페미"
 achieves:
   - image: ♣

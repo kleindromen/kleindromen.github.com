@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: content
 name:  "나디아 그리말디"
 achieves:
   - image: ♣

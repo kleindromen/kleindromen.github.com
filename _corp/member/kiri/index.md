@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: content
 name:  "키리"
 achieves:
   - image: ♣

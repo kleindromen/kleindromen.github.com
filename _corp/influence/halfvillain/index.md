@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: content
 name:  "하프빌런"
 achieves:
   - image: ♣

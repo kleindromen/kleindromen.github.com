@@ -1,44 +1,29 @@
 ---
-layout: main-content
-name:  "나빌레라 코퍼레이션"
+layout: content
+name:  "클레인드로먼"
 achieves:
-  - image: ♣
-    color: blue
-    name: For all beginners
-    content: 모든 시작하는 이들을 위해.
-    detail: 행운을 빌어요.
-  - image: $
-    color: purple
-    name: 재벌
-    content:
-    detail:
 ---
-# 나빌레라 코퍼레이션
+# 클레인드로먼
 ---
->  나빌레라 코퍼레이션
-
-이름 | `나빌레라 코퍼레이션`[^name]
-나이 | 21
-국적 | 한국
-코드 | Tutor
-소속 | [프리랜서](../../influence/free)
-직업 | **대학생** / 조향사
-재능 | ***비기너즈 럭***
-제한 | 자신과 주변인의 안전
 
 ## 1. 소개
 
-> 특별한 능력, 깨달음
+> 작은 꿈, 작은 세계
 
-## 2. 목적
+단 하나의 세계
 
+## 2. 메인
+1. 우르르 과거 현재
+2. 엘바프 과거+진상
+3. 유레카 과거
+4. 유레카랑 엘바프 애들 만난거
+5. 폴 올 비기너즈 만든 순간
+6. 셀린 아스트린
 
-## 3. 그룹
+## 3. 서브
+1. [우르르 크리스마스](./member/ururu/christmas.html)
+2. 이오랑 실험실 크리스마스
+3. 혜향수나 제야의 종
 
-{% for post in site.narvcorp %}
-[{{ post.name }}]({{ site.baseurl }}{{ post.url }})
-{% endfor %}
-
-## 4. 이벤트
 
 [^name]: ?

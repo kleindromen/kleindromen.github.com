@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: content
 name:  "판도라"
 achieves:
   - image: ♣

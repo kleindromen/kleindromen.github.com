@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: content
 name:  "솔로몬"
 achieves:
   - image: ♣

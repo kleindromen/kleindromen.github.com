@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: content
 name:  "프리랜서"
 achieves:
   - image: ♣

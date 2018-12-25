@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: log
 name:  "엘바프 위치대화"
 ---
 # 엘바프 프리드리히 - 위치대화

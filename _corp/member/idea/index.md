@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: content
 name:  "이데아"
 achieves:
   - image: ♣

@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: content
 name:  "천혜향"
 achieves:
   - image: ♣

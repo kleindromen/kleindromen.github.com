@@ -1,5 +1,5 @@
 ---
-layout: main-content
+layout: content
 name:  "쟈클린"
 achieves:
   - image: ♣
