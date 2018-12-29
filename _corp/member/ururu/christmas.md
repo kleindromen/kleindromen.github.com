@@ -1,8 +1,6 @@
 ---
 layout: log
 name:  "크리스마스"
-num: 1
-achieves:
 ---
 # 크리스마스
 ---

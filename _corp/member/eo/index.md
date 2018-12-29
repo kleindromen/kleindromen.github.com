@@ -44,9 +44,7 @@ achieves:
 5. 사소한 것들에 의미를 부여하는걸 좋아한다.
 
 
-## 3. 행적
-
-## 4. 기타
+## 3. 로그
 
 [^name]: 25 EO
 [halfvillain]: ../../influence/halfvillain/index.html

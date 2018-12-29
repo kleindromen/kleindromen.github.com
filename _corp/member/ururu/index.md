@@ -62,18 +62,11 @@ achieves:
   - 가시광선은 쓰면 본인도 헷갈리고 눈도 피로해서 장난용으로만 사용한다.
   - 방사선은 밖으로 쓰는 양보다 체내에 피폭되는 양이 많아 어지간하면 쓰지 않는다.
 
-
-## 3. 행적
-  > 내가 어리석었지. X나게 어리석었지.
-
-  > 나는 자비로우니 자살할 기회를 주지.
-
-
-## 4. 로그
+## 3. 로그
 
 {% for post in site.corp %}
 {% if post.url contains 'ururu' %}
-[{{post.name}}{{post.num}}]({{ site.baseurl }}{{ post.url }})
+- [{{post.name}}{{post.num}}]({{ site.baseurl }}{{ post.url }})
 {% endif %}
 {% endfor %}
 
