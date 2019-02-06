@@ -4,9 +4,9 @@ name:  "유레카 미리어드"
 achieves:
   - image: ♣
     color: blue
-    name: For all beginners
-    content: 모든 시작하는 이들을 위해.
-    detail: 행운을 빌어요.
+    name: Read
+    content: 사건의 이해
+    detail: 내가 느낀 것만이 진실이야.
 ---
 # 유레카 미리어드
 ---
@@ -49,10 +49,13 @@ achieves:
   - 사람 많은 곳은 멀쩡한 걸 입고 가지만 혼자 연구하러 갈 땐 거의 남의 옷을 입고 망가지면 버리고 온다.
   - 이겨놓고 굳이 기절시킨 다음에 옷까지 벗겨가는 피도 눈물도 없는 이상한 애로 수배중이다.
 
-
-## 3. 행적
-  > 사실 나 좀 강한가?
-
+## 3. 로그
+  
+{% for post in site.corp %}
+{% if post.url contains 'eureka' %}
+- [{{post.name}}{{post.num}}]({{ site.baseurl }}{{ post.url }})
+{% endif %}
+{% endfor %}
 
 
 ## 4. 기타
