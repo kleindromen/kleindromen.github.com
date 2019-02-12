@@ -2,20 +2,9 @@
 layout: content
 name:  "하프빌런"
 achieves:
-  - image: ♣
-    color: blue
-    name: For all beginners
-    content: 모든 시작하는 이들을 위해.
-    detail: 행운을 빌어요.
-  - image: $
-    color: purple
-    name: 재벌
-    content:
-    detail:
 ---
 # 하프빌런
 ---
->  행운을 빌어요.
 
 이름 | `Half Villain`[^name]
 목적 | 재미

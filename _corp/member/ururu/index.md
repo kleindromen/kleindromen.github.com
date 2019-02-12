@@ -66,7 +66,9 @@ achieves:
 
 {% for post in site.corp %}
 {% if post.url contains 'ururu' %}
+{% unless post.url contains 'ururu/index'%}
 - [{{post.name}}{{post.num}}]({{ site.baseurl }}{{ post.url }})
+{% endunless %}
 {% endif %}
 {% endfor %}
 

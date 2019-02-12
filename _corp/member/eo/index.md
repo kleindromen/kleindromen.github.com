@@ -2,24 +2,14 @@
 layout: content
 name:  "이오"
 achieves:
-  - image: ♣
-    color: blue
-    name: For all beginners
-    content: 모든 시작하는 이들을 위해.
-    detail: 행운을 빌어요.
-  - image: $
-    color: purple
-    name: 재벌
-    content:
-    detail:
 ---
 # 이오
 ---
->  행운을 빌어요.
+>  
 
 이름 | `이오`[^name]
 나이 | 22
-국적 | 한국
+국적 | 이탈리아
 코드 | Halloween
 소속 | [하프빌런][halfvillain]
 직업 | **백수** / 날백수

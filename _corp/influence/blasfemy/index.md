@@ -2,16 +2,6 @@
 layout: content
 name:  "블라스페미"
 achieves:
-  - image: ♣
-    color: blue
-    name: For all beginners
-    content: 모든 시작하는 이들을 위해.
-    detail: 행운을 빌어요.
-  - image: $
-    color: purple
-    name: 재벌
-    content:
-    detail:
 ---
 # 블라스페미
 ---
@@ -22,15 +12,12 @@ achieves:
 
 ## 1. 소속
 
-- [솔로몬](../../member/elbaf/index.html)
+- [솔로몬](../../member/solomon/index.html)
 
 ## 2. 특징
 
-1.
-
 
 ## 3. 행적
-  > 머하고 지내
 
 
 ## 4. 기타

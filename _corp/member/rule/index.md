@@ -2,21 +2,16 @@
 layout: content
 name:  "룰"
 achieves:
-  - image: A
-    color: red
-    name: Almighty
-    content: 내가 이렇게 바라노니
-    detail: 너는 원하기만 하거라.
 ---
 # 룰
 ---
 >  내 세계에 어서와.
 
-이름 | `Rule`[^name]
+이름 |
 나이 | ?
 국적 | X
 코드 | Rule
-소속 | [프리랜서][free]
+소속 | 없음
 직업 | **?**
 재능 | ***룰***
 제한 | X
@@ -46,7 +41,3 @@ achieves:
 
 
 ## 4. 기타
--
-
-[^name]: 불명
-[free]: ../../influence/free/index.html

@@ -84,7 +84,9 @@ achieves:
 
 {% for post in site.corp %}
 {% if post.url contains 'elbaf' %}
+{% unless post.url contains 'elbaf/index'%}
 - [{{post.name}}{{post.num}}]({{ site.baseurl }}{{ post.url }})
+{% endunless %}
 {% endif %}
 {% endfor %}
 - [낚고][gldthrdktwl]

@@ -53,7 +53,9 @@ achieves:
 
 {% for post in site.corp %}
 {% if post.url contains 'astrine' %}
+{% unless post.url contains 'astrine/index'%}
 - [{{post.name}}{{post.num}}]({{ site.baseurl }}{{ post.url }})
+{% endunless %}
 {% endif %}
 {% endfor %}
 
